@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/hugs-landing/static/css/main.43a2ef24.chunk.css",
-    "main.js": "/hugs-landing/static/js/main.d73d67de.chunk.js",
-    "main.js.map": "/hugs-landing/static/js/main.d73d67de.chunk.js.map",
+    "main.js": "/hugs-landing/static/js/main.9f24499b.chunk.js",
+    "main.js.map": "/hugs-landing/static/js/main.9f24499b.chunk.js.map",
     "runtime-main.js": "/hugs-landing/static/js/runtime-main.97655a96.js",
     "runtime-main.js.map": "/hugs-landing/static/js/runtime-main.97655a96.js.map",
     "static/css/2.456c216f.chunk.css": "/hugs-landing/static/css/2.456c216f.chunk.css",
     "static/js/2.0d64ad90.chunk.js": "/hugs-landing/static/js/2.0d64ad90.chunk.js",
     "static/js/2.0d64ad90.chunk.js.map": "/hugs-landing/static/js/2.0d64ad90.chunk.js.map",
     "index.html": "/hugs-landing/index.html",
-    "precache-manifest.a1d416f969869c51c3e7fde8e6d2e996.js": "/hugs-landing/precache-manifest.a1d416f969869c51c3e7fde8e6d2e996.js",
+    "precache-manifest.4306e431a1f154d8c86fad04ebc7aaa4.js": "/hugs-landing/precache-manifest.4306e431a1f154d8c86fad04ebc7aaa4.js",
     "service-worker.js": "/hugs-landing/service-worker.js",
     "static/css/2.456c216f.chunk.css.map": "/hugs-landing/static/css/2.456c216f.chunk.css.map",
     "static/css/main.43a2ef24.chunk.css.map": "/hugs-landing/static/css/main.43a2ef24.chunk.css.map",
@@ -34,6 +34,6 @@
     "static/css/2.456c216f.chunk.css",
     "static/js/2.0d64ad90.chunk.js",
     "static/css/main.43a2ef24.chunk.css",
-    "static/js/main.d73d67de.chunk.js"
+    "static/js/main.9f24499b.chunk.js"
   ]
 }
