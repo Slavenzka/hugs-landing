@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/hugs-landing/static/css/main.396c0b95.chunk.css",
-    "main.js": "/hugs-landing/static/js/main.1fffd1a7.chunk.js",
-    "main.js.map": "/hugs-landing/static/js/main.1fffd1a7.chunk.js.map",
+    "main.css": "/hugs-landing/static/css/main.d689cec5.chunk.css",
+    "main.js": "/hugs-landing/static/js/main.25dc3042.chunk.js",
+    "main.js.map": "/hugs-landing/static/js/main.25dc3042.chunk.js.map",
     "runtime-main.js": "/hugs-landing/static/js/runtime-main.97655a96.js",
     "runtime-main.js.map": "/hugs-landing/static/js/runtime-main.97655a96.js.map",
     "static/css/2.456c216f.chunk.css": "/hugs-landing/static/css/2.456c216f.chunk.css",
-    "static/js/2.a0c2cc39.chunk.js": "/hugs-landing/static/js/2.a0c2cc39.chunk.js",
-    "static/js/2.a0c2cc39.chunk.js.map": "/hugs-landing/static/js/2.a0c2cc39.chunk.js.map",
+    "static/js/2.f7535291.chunk.js": "/hugs-landing/static/js/2.f7535291.chunk.js",
+    "static/js/2.f7535291.chunk.js.map": "/hugs-landing/static/js/2.f7535291.chunk.js.map",
     "index.html": "/hugs-landing/index.html",
-    "precache-manifest.3febd066cb451a0ecc0b006a24cc46ef.js": "/hugs-landing/precache-manifest.3febd066cb451a0ecc0b006a24cc46ef.js",
+    "precache-manifest.993da4ea12a9b38abd7a644743b60e17.js": "/hugs-landing/precache-manifest.993da4ea12a9b38abd7a644743b60e17.js",
     "service-worker.js": "/hugs-landing/service-worker.js",
     "static/css/2.456c216f.chunk.css.map": "/hugs-landing/static/css/2.456c216f.chunk.css.map",
-    "static/css/main.396c0b95.chunk.css.map": "/hugs-landing/static/css/main.396c0b95.chunk.css.map",
-    "static/js/2.a0c2cc39.chunk.js.LICENSE.txt": "/hugs-landing/static/js/2.a0c2cc39.chunk.js.LICENSE.txt",
+    "static/css/main.d689cec5.chunk.css.map": "/hugs-landing/static/css/main.d689cec5.chunk.css.map",
+    "static/js/2.f7535291.chunk.js.LICENSE.txt": "/hugs-landing/static/js/2.f7535291.chunk.js.LICENSE.txt",
     "static/media/common.scss": "/hugs-landing/static/media/FuturaPTDemi.29fa49c1.woff2",
     "static/media/CalculatorForm.module.scss": "/hugs-landing/static/media/HUG’S.7cbc67ae.svg",
     "static/media/bg_eric.png": "/hugs-landing/static/media/bg_eric.0875b0be.png",
@@ -32,8 +32,8 @@
   "entrypoints": [
     "static/js/runtime-main.97655a96.js",
     "static/css/2.456c216f.chunk.css",
-    "static/js/2.a0c2cc39.chunk.js",
-    "static/css/main.396c0b95.chunk.css",
-    "static/js/main.1fffd1a7.chunk.js"
+    "static/js/2.f7535291.chunk.js",
+    "static/css/main.d689cec5.chunk.css",
+    "static/js/main.25dc3042.chunk.js"
   ]
 }
