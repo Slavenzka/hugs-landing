@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b48c42e049bb4e18d137e0c5e095cefa",
+    "revision": "44791904d84ca2703ce468af8dd439ca",
     "url": "/hugs-landing/index.html"
   },
   {
-    "revision": "65227b80b5c7f75b3491",
+    "revision": "afbcda80a54619d2cc41",
     "url": "/hugs-landing/static/css/2.456c216f.chunk.css"
   },
   {
-    "revision": "5cefd7ea34ee42701a20",
-    "url": "/hugs-landing/static/css/main.52b7ed18.chunk.css"
+    "revision": "951c08514c55d83c8dd2",
+    "url": "/hugs-landing/static/css/main.396c0b95.chunk.css"
   },
   {
-    "revision": "65227b80b5c7f75b3491",
-    "url": "/hugs-landing/static/js/2.0d64ad90.chunk.js"
+    "revision": "afbcda80a54619d2cc41",
+    "url": "/hugs-landing/static/js/2.a0c2cc39.chunk.js"
   },
   {
     "revision": "5b099948b207b77f6fa04ff33fa98702",
-    "url": "/hugs-landing/static/js/2.0d64ad90.chunk.js.LICENSE.txt"
+    "url": "/hugs-landing/static/js/2.a0c2cc39.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5cefd7ea34ee42701a20",
-    "url": "/hugs-landing/static/js/main.14f39628.chunk.js"
+    "revision": "951c08514c55d83c8dd2",
+    "url": "/hugs-landing/static/js/main.1fffd1a7.chunk.js"
   },
   {
     "revision": "b1b27f6e16ece4236635",
@@ -88,8 +88,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/hugs-landing/static/media/bg_sherbina.b5f881d7.png"
   },
   {
-    "revision": "78b76f308807184bc9ba0d8c42ae492f",
-    "url": "/hugs-landing/static/media/bg_shvets.78b76f30.png"
+    "revision": "93e98bac3360059c2a922e0c9af4e549",
+    "url": "/hugs-landing/static/media/bg_shvets.93e98bac.png"
   },
   {
     "revision": "7ed974271570d34a133c80baffe40521",
@@ -108,8 +108,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/hugs-landing/static/media/card__study.f2e6ba79.svg"
   },
   {
-    "revision": "28c36ea3f3c67237a77a0d7560ff19b0",
-    "url": "/hugs-landing/static/media/chart.28c36ea3.png"
+    "revision": "dc2c6491d1a18d34701b961e1d97d743",
+    "url": "/hugs-landing/static/media/chart.dc2c6491.png"
   },
   {
     "revision": "adb79efd0d6ad512597e9c566ca4f63b",
