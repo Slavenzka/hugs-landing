@@ -1,0 +1,91 @@
+@import "styles/variables";
+@import "styles/mixins";
+
+.wrapper {
+  --padding-modal-left: 13.5rem;
+  --padding-modal-right: 10.3rem;
+  position: relative;
+  margin: 0 auto 2rem auto;
+  padding-right: var(--padding-modal-right);
+  width: 144rem;
+  min-height: 100vh;
+  background-color: var(--main-bg-color);
+  transition-duration: $transitionDuration;
+}
+
+.wrapperBlack {
+  --main-bg-color: black;
+  --table-font-heading-size: 2.5rem;
+  --table-font-heading-height: 3.3rem;
+  --table-cell-odd-color: red;
+}
+
+.wrapperPurple {
+  --main-bg-color: rgb(81, 16, 144);
+  --table-font-heading-size: 2rem;
+  --table-font-heading-height: 2.6rem;
+}
+
+.buttonClose {
+  @include resetButton;
+
+  position: absolute;
+  top: 5.2rem;
+  left: 6.8rem;
+
+  .iconClose {
+    width: 3.7rem;
+    fill: $colorHighlightLight;
+  }
+}
+
+.intro {
+  padding-top: 3.8rem;
+  padding-bottom: 1.3rem;
+  padding-left: var(--padding-modal-left);
+  width: 68.5rem;
+}
+
+.heading {
+  @include fontCopyright($colorLightest, 300);
+
+  margin: 0;
+  line-height: 3rem;
+  text-transform: uppercase;
+  letter-spacing: 0.4rem;
+  opacity: 0.59;
+}
+
+.list {
+  @include resetList;
+
+  display: flex;
+  align-items: center;
+  margin-top: 0.8rem;
+}
+
+.item {
+  &:not(:first-child) {
+    margin-left: 3rem;
+  }
+}
+
+.trigger {
+  @include resetButton;
+  @include fontInputLabel($colorLightest, 600);
+
+  text-transform: uppercase;
+  border-bottom: 1px solid transparent;
+  opacity: 0.3;
+  transition-duration: $transitionDuration;
+}
+
+.triggerActive {
+  color: $colorHighlightLight;
+  border-bottom-color: $borderButtonTransparent;
+  opacity: 1;
+}
+
+.table {
+  margin-top: -10.8rem;
+}

@@ -1,0 +1,94 @@
+@import "styles/variables";
+@import "styles/mixins";
+
+.label {
+  @include fontInputLabel;
+
+  margin: 0 0 0.3rem 0;
+  text-align: left;
+  opacity: 0.26;
+}
+
+.select {
+  box-shadow: 0 4px 30px 0 rgba(0,0,0,0.11);
+
+  :global {
+    .simplebar-placeholder {
+      display: block;
+    }
+
+    .select {
+      &__control {
+        height: 5.5rem;
+        background-color: $colorLightest;
+        border: none;
+        cursor: pointer;
+      }
+
+      &__value-container {
+        padding: 0 1.8rem;
+        height: 100%;
+      }
+
+      &__placeholder {
+        @include fontButtonSimple($colorDarkest);
+
+        opacity: 0.26;
+      }
+
+      &__single-value {
+        @include fontButtonStrong($colorDarkest);
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+      }
+
+      &__indicator-separator {
+        display: none;
+      }
+
+      &__dropdown-indicator {
+        padding: 0.8rem 2rem 0.8rem 2rem;
+
+        svg {
+          width: 2rem;
+          height: 2rem;
+          fill: $colorHighlightLight;
+        }
+      }
+
+      &__option {
+        @include fontButtonStrong($colorHighlightLight);
+
+        &:not(:first-child) {
+          border-top: 0.1rem solid rgba(0, 0, 0, 0.2);
+        }
+
+        &:hover,
+        &--is-focused {
+          color: $colorLightest;
+          background-color: $colorHighlightLight;
+        }
+
+        &--is-selected {
+          color: $colorHighlightLight;
+          background-color: $colorLightest;
+          pointer-events: none;
+          opacity: 0.5;
+        }
+
+        &:not(.select__option--is-selected) {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+
+.hint {
+  @include fontButtonSimple($colorDarkest);
+
+  opacity: 0.26;
+}

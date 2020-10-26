@@ -1,0 +1,128 @@
+@import "styles/variables";
+@import "styles/mixins";
+
+.frame {
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    bottom: -10rem;
+    left: 0;
+    border-top: 10rem solid $colorBgMain;
+    border-right: 50vw solid transparent;
+    border-left: 50vw solid transparent;
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: calc(-10.4rem - 6.5rem);
+    left: calc(50% - 4.9rem / 2);
+    width: 7.9rem;
+    height: 10.4rem;
+    background-image: url("../../../assets/icons/ic_check.svg");
+    background-size: cover;
+  }
+}
+
+.wrapper {
+  padding-top: 12rem;
+  padding-bottom: 5.3rem;
+}
+
+.heading {
+  text-align: center;
+
+  span {
+    color: $colorHighlightLight;
+  }
+}
+
+.descriptor {
+  @include fontDescriptor;
+
+  margin: 2.6rem 0 0 0;
+  padding: 0 20%;
+  text-align: center;
+
+  span {
+    font-weight: 400;
+  }
+}
+
+.list {
+  @include resetList;
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 3rem;
+  margin-top: 4.7rem;
+}
+
+.play {
+  @include resetButton;
+  @include fontButtonStrong($colorHighlightLight, 400);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 6rem auto 0 auto;
+  transition-duration: $transitionDuration;
+
+  .icon {
+    margin-right: 1rem;
+    width: 4.1rem;
+    fill: $colorHighlightLight;
+    stroke: $colorHighlightLight;
+    transition-duration: $transitionDuration;
+  }
+
+  &:hover {
+    color: $colorHighlightDark;
+
+    .icon {
+      fill: $colorHighlightDark;
+      stroke: $colorHighlightDark;
+    }
+  }
+}
+
+@media (max-width: $adaptiveMax) {
+  .frame {
+    &::before {
+      --triangle-height: 3rem;
+      bottom: calc(-1 * var(--triangle-height));
+      border-top: var(--triangle-height) solid $colorBgMain;
+    }
+
+    &::after {
+      bottom: calc(-3rem - 5.5rem);
+      left: calc(50% - 6rem / 2);
+      width: 6rem;
+      height: 8.1rem;
+    }
+  }
+
+  .wrapper {
+    padding-top: 6rem;
+    padding-bottom: 5.3rem;
+  }
+
+  .descriptor {
+    margin: 2rem 0 0 0;
+    padding: 0;
+  }
+
+  .list {
+    grid-template-columns: 100%;
+    grid-auto-rows: 23rem;
+    grid-gap: 1.6rem;
+    margin-top: 2.4rem;
+  }
+
+  .play {
+    font-size: 1.6rem;
+    line-height: 2.1rem;
+  }
+}

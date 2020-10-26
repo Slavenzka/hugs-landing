@@ -1,0 +1,107 @@
+@import "styles/variables";
+@import "styles/mixins";
+
+.section {
+  padding-top: 10rem;
+  padding-bottom: 9.5rem;
+  text-align: center;
+  background-color: $colorLightest;
+}
+
+.heading {
+  font-weight: 900;
+
+  span {
+    color: $colorHighlightLight;
+  }
+}
+
+.descriptor {
+  @include fontDescriptor;
+
+  margin: 2rem 0 0 0;
+  padding: 0 25%;
+}
+
+.notification {
+  @include fontNotification;
+
+  margin: 3rem 0 0 0;
+  padding: 0 10%;
+  opacity: 0.8;
+}
+
+.triggers {
+  @include resetList;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.4rem;
+}
+
+.trigger {
+  &:not(:first-child) {
+    margin-left: 6rem;
+  }
+}
+
+.button {
+  @include resetButton;
+  @include fontTrigger;
+
+  position: relative;
+  border-bottom: 1px solid transparent;
+  opacity: 0.3;
+  transition-duration: $transitionDuration;
+}
+
+.buttonActive {
+  opacity: 1;
+  border-bottom-color: $borderTabs;
+}
+
+.list {
+  @include resetList;
+
+  display: flex;
+  margin-top: 4rem;
+}
+
+@media (max-width: $adaptiveMax) {
+  .section {
+    padding-top: 8rem;
+    padding-bottom: 7.5rem;
+  }
+
+  .descriptor {
+    margin: 0.8rem 0 0 0;
+    padding: 0;
+  }
+
+  .notification {
+    margin: 2.2rem 0 0 0;
+    padding: 0 0.7rem;
+  }
+
+  .triggers {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.8rem;
+  }
+
+  .trigger {
+    &:not(:first-child) {
+      margin-top: 3rem;
+      margin-left: 0;
+    }
+  }
+
+  .list {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-auto-rows: 32rem;
+    margin-top: 2.4rem;
+  }
+}

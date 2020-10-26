@@ -1,0 +1,102 @@
+@import "styles/variables";
+@import "styles/mixins";
+
+.button {
+  @include resetButton;
+
+  padding-right: 3rem;
+  padding-left: 3rem;
+  transition-duration: $transitionDuration;
+}
+
+.buttonLarge {
+  padding-top: 1.7rem;
+  padding-bottom: 2rem;
+}
+
+.buttonMedium {
+  padding-top: 1.2rem;
+  padding-bottom: 1.3rem;
+}
+
+.buttonSmall {
+  padding-top: 0.9rem;
+  padding-bottom: 1rem;
+}
+
+.buttonSquare {
+  padding: 1.8rem 3rem 1.7rem 3rem;
+}
+
+.buttonTransparent {
+  @include fontButtonSimple;
+
+  border: 1px solid $borderButtonTransparent;
+  border-radius: 2rem;
+
+  &:hover,
+  &:active {
+    color: $colorLightest;
+    border-color: $colorLightest;
+  }
+
+  &:active {
+    box-shadow: 0 0 1rem 0 $colorLightest;
+  }
+}
+
+.buttonDark {
+  @include fontButtonStrong;
+
+  background-color: $colorHighlightLight;
+  border-radius: 3rem;
+
+  &:hover,
+  &:active {
+    box-shadow: 0 0 1rem $colorHighlightLight;
+  }
+}
+
+.buttonLight {
+  @include fontButtonStrong($colorHighlightLight);
+
+  background-color: $colorLightest;
+  border-radius: 3rem;
+
+  &:hover,
+  &:active {
+    box-shadow: 0 0 1rem $colorLightest;
+  }
+}
+
+.buttonPale {
+  @include fontButtonStrong;
+
+  background-color: $colorBgBtnPale;
+  border-radius: 3rem;
+
+  &:hover,
+  &:active {
+    box-shadow: 0 0 1rem $colorLightest1;
+  }
+}
+
+.buttonHighlight {
+  @include fontSmall($colorLightest, 600);
+
+  border-radius: 0;
+  background-color: $colorHighlightDark;
+
+  &:hover,
+  &:active {
+    box-shadow: 0 0 1rem $colorHighlightDark;
+  }
+}
+
+@media (max-width: $adaptiveMax) {
+  .buttonLarge,
+  .buttonMedium {
+    padding-top: 1.3rem;
+    padding-bottom: 1.4rem;
+  }
+}

@@ -1,0 +1,227 @@
+@import "styles/variables";
+@import "styles/mixins";
+
+@keyframes showMenu {
+  0% {
+    top: -100%;
+    opacity: 0;
+    z-index: -1;
+  }
+  1% {
+    opacity: 1;
+    z-index: 5;
+  }
+  100% {
+    top: 0;
+    opacity: 1;
+    z-index: 5;
+  }
+}
+
+@keyframes closeMenu {
+  0% {
+    top: 0;
+    opacity: 1;
+    z-index: 5;
+  }
+  99% {
+    opacity: 1;
+    z-index: 5;
+  }
+  100% {
+    top: -100%;
+    opacity: 0;
+    z-index: -1;
+  }
+}
+
+.header {
+  --padding-header-v: 3.5rem;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-top: var(--padding-header-v);
+  padding-bottom: var(--padding-header-v);
+  background-color: $colorHighlightDark;
+  width: 100%;
+  z-index: 3;
+  transition-property: transform;
+  transform: translateY(0);
+  transition-duration: $transitionDuration;
+
+  .button {
+    margin-left: 4.6rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 22.6rem;
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 2.1rem;
+  }
+}
+
+.headerHiddenAbsolute {
+  --padding-header-v: 3.5rem;
+
+  position: absolute;
+  transform: translateY(-100%);
+}
+
+.headerHiddenFixed {
+  --padding-header-v: 1.2rem;
+
+  position: fixed;
+  transform: translateY(-100%);
+  background-color: $colorLightest;
+}
+
+.headerFixed {
+  --padding-header-v: 2.5rem;
+
+  position: fixed;
+  transform: translateY(0);
+  background-color: $colorLightest;
+  box-shadow: 0 5px 10px 0 rgba(0,0,0,0.07);
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.navigation {
+  margin-left: auto;
+}
+
+.navigationDark {
+  color: red;
+}
+
+.logoDark {
+  svg {
+    fill: $colorHighlightDark;
+  }
+}
+
+.menu {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+}
+
+.buttonBurger,
+.adaptiveTop,
+.adaptiveBottom{
+  display: none;
+}
+
+@media (max-width: $adaptiveMax) {
+  .header {
+    --padding-header-v: 2.8rem;
+
+    position: absolute;
+    transform: none;
+    width: 100vw;
+    overflow: hidden;
+
+
+    .button {
+      margin-top: 3.5rem;
+      margin-left: 0;
+    }
+  }
+
+  .wrapper {
+    justify-content: space-between;
+  }
+
+  .menu {
+    position: fixed;
+    top: -100%;
+    left: 0;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-bottom: 3rem;
+    width: 100vw;
+    height: 100vh;
+    opacity: 0;
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-out;
+    background-color: $colorHighlightDark;
+    overflow: scroll;
+  }
+
+  .menuVisible {
+    animation-name: showMenu;
+    pointer-events: all;
+  }
+
+  .menuHidden {
+    pointer-events: none;
+    animation-name: closeMenu;
+  }
+
+  .buttonBurger {
+    @include resetButton;
+
+    position: relative;
+    display: block;
+    margin-right: calc(-1.5rem / 2);
+    width: 3rem;
+    height: 3rem;
+    z-index: 2;
+
+    .icon {
+      width: 1.5rem;
+      fill: $colorLightest;
+    }
+  }
+
+  .adaptiveTop {
+    display: block;
+    padding: 2rem 0;
+    width: 100%;
+  }
+
+  .adaptiveWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .buttonClose {
+    @include resetButton;
+
+    margin-right: calc(-1.5rem / 2);
+    width: 3rem;
+    height: 3rem;
+
+    .iconClose {
+      width: 1.5rem;
+      fill: $colorLightest;
+    }
+  }
+
+  .navigation {
+    margin-top: 4rem;
+    margin-left: 0;
+  }
+
+  .adaptiveBottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .social {
+      margin-top: 5.6rem;
+    }
+
+    .copyright {
+      text-align: center;
+    }
+  }
+}

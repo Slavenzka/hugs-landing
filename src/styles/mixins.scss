@@ -1,0 +1,262 @@
+@import "variables";
+
+// font mixins
+@mixin fontGiant($color: $colorLightest) {
+  font-family: "FuturaPT", Arial, sans-serif;
+  font-size: 7rem;
+  font-weight: 600;
+  line-height: 7rem;
+  font-display: swap;
+  color: $color;
+  letter-spacing: -0.06rem;
+
+  @media (max-width: $adaptiveMax) {
+    font-size: 5rem;
+    line-height: 6.4rem;
+    letter-spacing: 0;
+  }
+}
+
+@mixin h0($color: $colorLightest) {
+  font-family: "FuturaPT", Arial, sans-serif;
+  font-size: 4.3rem;
+  font-weight: 900;
+  line-height: 5.6rem;
+  font-display: swap;
+  color: $color;
+  letter-spacing: -0.06rem;
+
+  @media (max-width: $adaptiveMax) {
+    font-size: 3.2rem;
+    line-height: 3.7rem;
+    letter-spacing: -0.05rem;
+  }
+}
+
+@mixin fontLabels($color: $colorLightest) {
+  font-family: "FuturaPT", Arial, sans-serif;
+  font-size: 4rem;
+  font-weight: 600;
+  line-height: 5.1rem;
+  font-display: swap;
+  color: $color;
+  letter-spacing: -0.06rem;
+
+  @media (max-width: $adaptiveMax) {
+    font-size: 3.4rem;
+    line-height: 4.3rem;
+    letter-spacing: -0.05rem;
+  }
+}
+
+@mixin h1($color: $colorDarkest) {
+  font-family: "FuturaPT", Arial, sans-serif;
+  font-size: 3.4rem;
+  font-weight: 600;
+  line-height: 4.2rem;
+  font-display: swap;
+  color: $color;
+  letter-spacing: -0.05rem;
+
+  @media (max-width: $adaptiveMax) {
+    font-size: 2.5rem;
+    font-weight: 900;
+    line-height: 3.1rem;
+    letter-spacing: -0.04rem;
+  }
+}
+
+@mixin h2($color: $colorDarkest, $weight: 600) {
+  font-family: "FuturaPT", Arial, sans-serif;
+  font-size: 2.9rem;
+  font-weight: $weight;
+  line-height: 3.7rem;
+  font-display: swap;
+  color: $color;
+  letter-spacing: -0.05rem;
+
+  @media (max-width: $adaptiveMax) {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    letter-spacing: -0.03rem;
+  }
+}
+
+@mixin fontLink($color: $colorLightest, $weight: 500) {
+  font-family: "FuturaPT", Arial, sans-serif;
+  font-size: 2.5rem;
+  font-weight: $weight;
+  line-height: 3.3rem;
+  font-display: swap;
+  color: $color;
+  letter-spacing: -0.02rem;
+
+  @media (max-width: $adaptiveMax) {
+    font-size: 1.9rem;
+    line-height: 2.5rem;
+  }
+}
+
+@mixin fontAccent($color: $colorLightest, $isBold: false) {
+  font-family: "FuturaPT", Arial, sans-serif;
+  font-size: 2.3rem;
+  font-weight: 300;
+  line-height: 3.5rem;
+  font-display: swap;
+  color: $color;
+  letter-spacing: -0.05rem;
+
+  @if ($isBold) {
+    font-weight: 600;
+    line-height: 3rem;
+  }
+
+  @media (max-width: $adaptiveMax) {
+    font-size: 1.5rem;
+    line-height: 2.2rem;
+    letter-spacing: -0.04rem;
+  }
+}
+
+@mixin fontTrigger($color: black) {
+  font-family: "FuturaPT", Arial, sans-serif;
+  font-size: 2.1rem;
+  font-weight: 600;
+  line-height: 2.7rem;
+  font-display: swap;
+  color: $color;
+}
+
+@mixin fontCard($color: $colorDarkest) {
+  font-family: "FuturaPT", Arial, sans-serif;
+  font-size: 2rem;
+  font-weight: 900;
+  line-height: 2.4rem;
+  font-display: swap;
+  color: $color;
+  letter-spacing: -0.05rem;
+}
+
+@mixin fontDescriptor($color: $colorDarkest, $weight: 300) {
+  font-family: "FuturaPT", Arial, sans-serif;
+  font-size: 1.9rem;
+  font-weight: $weight;
+  line-height: 2.7rem;
+  font-display: swap;
+  color: $color;
+
+  @media (max-width: $adaptiveMax) {
+    font-size: 1.5rem;
+    line-height: 2.2rem;
+  }
+}
+
+@mixin fontButtonStrong($color: $colorLightest, $weight: 600) {
+  font-family: "FuturaPT", Arial, sans-serif;
+  font-size: 1.8rem;
+  font-weight: $weight;
+  line-height: 2.3rem;
+  font-display: swap;
+  color: $color;
+
+  @media (max-width: $adaptiveMax) {
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+  }
+}
+
+@mixin fontNavigation($color: $colorLightest, $weight: 300) {
+  font-family: "FuturaPT", Arial, sans-serif;
+  font-size: 1.7rem;
+  font-weight: $weight;
+  line-height: 2.2rem;
+  font-display: swap;
+  color: $color;
+}
+
+@mixin fontButtonSimple($color: $colorLightest1, $weight: 300) {
+  font-family: "FuturaPT", Arial, sans-serif;
+  font-size: 1.6rem;
+  font-weight: $weight;
+  line-height: 2.1rem;
+  font-display: swap;
+  color: $color;
+}
+
+@mixin fontSmall($color: $colorLightest, $weight: 300) {
+  font-family: "FuturaPT", Arial, sans-serif;
+  font-size: 1.5rem;
+  font-weight: $weight;
+  line-height: 2rem;
+  font-display: swap;
+  color: $color;
+
+  @media (max-width: $adaptiveMax) {
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+  }
+}
+
+@mixin fontInputLabel($color: $colorDarkest, $weight: 300) {
+  font-family: "FuturaPT", Arial, sans-serif;
+  font-size: 1.4rem;
+  font-weight: $weight;
+  line-height: 1.8rem;
+  font-display: swap;
+  color: $color;
+
+  @media (max-width: $adaptiveMax) {
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+  }
+}
+
+@mixin fontNotification($color: $colorNotification, $weight: 300) {
+  font-family: "FuturaPT", Arial, sans-serif;
+  font-size: 1.3rem;
+  font-weight: $weight;
+  line-height: 2.1rem;
+  font-display: swap;
+  color: $color;
+  letter-spacing: 0.05rem;
+}
+
+@mixin fontCopyright($color: $colorCopyright, $weight: 400) {
+  font-family: Arial, sans-serif;
+  font-size: 1.2rem;
+  font-weight: $weight;
+  line-height: 1.4rem;
+  font-display: swap;
+  color: $color;
+
+  @media (max-width: $adaptiveMax) {
+    line-height: 1.7rem;
+    letter-spacing: 0.05rem;
+  }
+}
+
+// reset mixins
+
+@mixin resetButton {
+  padding: 0;
+  font-size: 0;
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+  border-radius: 0;
+  cursor: pointer;
+}
+
+@mixin resetList {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+@mixin resetFieldset {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+// style mixins

@@ -1,0 +1,48 @@
+@import "styles/variables";
+@import "styles/mixins";
+
+.list {
+  @include resetList;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item {
+  &:not(:first-child) {
+    margin-left: 1rem;
+  }
+}
+
+.link {
+  font-size: 0;
+
+  &:hover {
+    .circle {
+      fill: $colorHighlightDark;
+    }
+  }
+}
+
+.icon {
+  width: 3rem;
+  fill: $colorLightest;
+}
+
+.circle {
+  fill: $colorCopyright;
+  transition-duration: $transitionDuration;
+}
+
+@media (max-width: $adaptiveMax) {
+  .list:not(.listDark) {
+    .icon {
+      fill: $colorLightest;
+    }
+
+    .circle {
+      fill: rgba(255, 255, 255, 0.1);
+    }
+  }
+}

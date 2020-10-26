@@ -1,0 +1,24 @@
+@import "styles/variables";
+@import "styles/mixins";
+
+.logo {
+  @include resetButton;
+
+  &:hover {
+    .icon {
+      fill: $colorHighlightLight;
+    }
+  }
+}
+
+.logoSmall {
+  .icon {
+    width: 7rem;
+  }
+}
+
+.icon {
+  width: 9.4rem;
+  fill: $colorLightest;
+  transition-duration: $transitionDuration;
+}

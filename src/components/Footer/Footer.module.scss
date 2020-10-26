@@ -1,0 +1,22 @@
+@import "styles/variables";
+@import "styles/mixins";
+
+.footer {
+  background-color: $colorLightest;
+}
+
+.wrapper {
+  padding-top: 5.3rem;
+  padding-bottom: 2rem;
+}
+
+.copyright {
+  @include fontCopyright;
+
+  margin: 3rem 0 0 0;
+  text-align: center;
+
+  a {
+    @include fontCopyright;
+  }
+}

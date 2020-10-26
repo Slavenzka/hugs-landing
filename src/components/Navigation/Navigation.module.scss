@@ -1,0 +1,46 @@
+@import "styles/variables";
+@import "styles/mixins";
+
+.list {
+  @include resetList;
+
+  display: flex;
+  align-items: center;
+}
+
+.item {
+  width: max-content;
+
+  &:not(:first-child) {
+    margin-left: 5rem;
+  }
+}
+
+.link {
+  @include fontNavigation;
+
+  opacity: 0.8;
+  transition-duration: $transitionDuration;
+}
+
+.linkActive {
+  opacity: 1;
+}
+
+.linkDark {
+  color: $colorDarkest;
+  opacity: 0.3;
+}
+
+@media (max-width: $adaptiveMax) {
+  .list {
+    flex-direction: column;
+  }
+
+  .item {
+    &:not(:first-child) {
+      margin-top: 3rem;
+      margin-left: 0;
+    }
+  }
+}

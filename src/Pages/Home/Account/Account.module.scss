@@ -1,0 +1,43 @@
+@import "styles/variables";
+@import "styles/mixins";
+
+.section {
+  padding-top: 25rem;
+  padding-bottom: 4.4rem;
+  background-color: black;
+  text-align: center;
+}
+
+.descriptor {
+  @include fontDescriptor($colorLightest);
+
+  margin: 2.2rem 0 0 0;
+  padding: 0 20%;
+  opacity: 0.7;
+}
+
+.hint {
+  @include fontDescriptor($colorHighlightLight, 600);
+
+  margin: 7rem 0 0 0;
+}
+
+@media (max-width: $adaptiveMax) {
+  .section {
+    padding-top: 15rem;
+    padding-bottom: 2.5rem;
+  }
+
+  .heading {
+    font-weight: 600;
+  }
+
+  .descriptor {
+    margin: 1rem 0 0 0;
+    padding: 0;
+  }
+
+  .hint {
+    margin: 3rem 0 0 0;
+  }
+}

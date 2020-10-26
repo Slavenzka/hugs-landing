@@ -1,0 +1,59 @@
+@import "styles/variables";
+@import "styles/mixins";
+
+.wrapper {
+  padding: 9rem $paddingSpecialHorizontal 5.6rem $paddingSpecialHorizontal;
+  text-align: center;
+}
+
+.heading {
+  padding: 0 10%;
+}
+
+.descriptor {
+  @include fontDescriptor($colorDarkest);
+
+  margin: 2.5rem 0 0 0;
+  padding: 0 20%;
+}
+
+.subheading {
+  margin-top: 2.2rem;
+  opacity: 0.35;
+}
+
+.form {
+  margin-top: 2.7rem;
+}
+
+.button {
+  margin-top: 3.5rem;
+  width: 24rem;
+}
+
+@media (max-width: $adaptiveMax) {
+  .wrapper {
+    padding: 7rem var(--padding-h);
+  }
+
+  .heading {
+    padding: 0;
+  }
+
+  .descriptor {
+    margin: 1.4rem 0 0 0;
+    padding: 0;
+  }
+
+  .subheading {
+    margin-top: 3.8rem;
+  }
+
+  .form {
+    margin-top: 0.7rem;
+  }
+
+  .button {
+    width: 100%;
+  }
+}

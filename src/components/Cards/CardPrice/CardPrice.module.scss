@@ -1,0 +1,217 @@
+@import "styles/variables";
+@import "styles/mixins";
+
+.card {
+  width: 100%;
+  perspective: 100rem;
+
+  &:hover {
+    .cardInner {
+      transform: rotateY(180deg);
+    }
+
+    .cardFront {
+      z-index: -1;
+    }
+  }
+}
+
+.cardInner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.cardFront,
+.cardBack {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  transform-origin: center;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: calc(100% + 1px);
+    height: 100%;
+    background-color: inherit;
+    z-index: -1;
+  }
+}
+
+.cardFront {
+  padding: 5rem 20%;
+}
+
+.label {
+  @include fontButtonSimple;
+
+  margin: auto 0 0 0;
+  opacity: 0.7;
+}
+
+.heading {
+  font-weight: 900;
+
+  span {
+    color: $colorHighlightLight;
+  }
+}
+
+.priceList {
+  @include resetList;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.priceItem {
+  @include fontAccent($colorLightest, true);
+
+  &:not(:first-child) {
+    margin-left: 0.7rem;
+  }
+}
+
+.priceItemOld {
+  opacity: 0.5;
+  text-decoration: line-through;
+}
+
+.priceLabel {
+  @include fontButtonSimple($colorLightest, 600);
+
+  margin: 1rem 0 0 0;
+  opacity: 0.42;
+}
+
+.purpose {
+  @include fontButtonSimple;
+
+  margin: auto 0 0 0;
+  opacity: 0.8;
+}
+
+.cardBack {
+  justify-content: flex-start;
+  padding: 5rem 2rem 3rem 2rem;
+  width: 100%;
+  transform: rotateY(180deg);
+}
+
+.type {
+  @include h2($colorLightest);
+
+  margin: 0;
+
+  span {
+    color: $colorHighlightLight;
+  }
+}
+
+.listDetails {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 3rem;
+  width: 100%;
+  text-align: left;
+}
+
+.itemDetails {
+  &:not(:first-child) {
+    margin-top: 1.3rem;
+  }
+}
+
+.key {
+  @include fontSmall;
+
+  opacity: 0.7;
+}
+
+.value {
+  @include fontNavigation($colorLightest, 600);
+
+  margin: 0;
+
+  span {
+    color: $colorHighlightLight;
+  }
+}
+
+.controls {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1.5rem;
+  align-items: center;
+  margin-top: auto;
+  width: 100%;
+}
+
+.button {
+  width: 100%;
+
+  &:not(:first-child) {
+    margin-left: auto;
+  }
+}
+
+@media (max-width: $adaptiveMax) {
+  .card {
+    perspective: 0;
+
+    &:hover {
+      .cardInner {
+        transform: none;
+      }
+
+      .cardFront {
+        z-index: 1;
+      }
+    }
+  }
+
+  .cardFront,
+  .cardBack {
+    &::before {
+      width: 100%;
+    }
+  }
+
+  .cardFront {
+    padding: 11rem 5% 1.6rem 5%;
+  }
+
+  .priceItem {
+    font-size: 2.3rem;
+    line-height: 3rem;
+  }
+
+  .label {
+    margin: 0;
+  }
+
+  .purpose {
+    font-size: 1.3rem;
+    line-height: 1.7rem;
+  }
+
+  .cardBack {
+    display: none;
+  }
+}

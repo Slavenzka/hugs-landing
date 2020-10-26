@@ -1,0 +1,89 @@
+@import "styles/variables";
+@import "styles/mixins";
+
+.section {
+  position: relative;
+  padding-top: 18.5rem;
+  padding-bottom: 22.2rem;
+  background-color: $colorLightest;
+  border-top: 1px solid $borderTabs;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 8.1rem;
+    right: calc(50% - 60rem);
+    width: 59.7rem;
+    height: 62.5rem;
+    background-image: url("../../../assets/images/phone_02.png");
+    background-size: cover;
+    z-index: 0;
+  }
+}
+
+.container {
+  padding: 0 62rem 0 25rem;
+}
+
+.heading {
+  padding-right: 15%;
+}
+
+.descriptor {
+  @include fontButtonStrong($colorDarkest, 400);
+
+  margin: 2.5rem 0 0 0;
+  padding-right: 20%;
+}
+
+.hint {
+  @include fontInputLabel(black);
+
+  margin: 2rem 0 0 0;
+  opacity: 0.5;
+}
+
+.button {
+  margin-top: 4.6rem;
+  font-weight: 500;
+}
+
+@media (max-width: $adaptiveMax) {
+  .section {
+    padding-top: 6rem;
+    padding-bottom: 7rem;
+
+    &::before {
+      top: 13.3rem;
+      right: 0;
+      width: 104%;
+      height: 36.1rem;
+    }
+  }
+
+  .container {
+    padding: 0 var(--padding-h);
+    text-align: center;
+  }
+
+  .heading {
+    padding: 0;
+  }
+
+  .descriptor {
+    margin: 39.2rem 0 0 0;
+    padding-right: 0;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+  }
+
+  .hint {
+    margin: 3rem 0 0 0;
+  }
+
+  .button {
+    margin-top: 0.5rem;
+    width: 100%;
+    font-weight: 500;
+  }
+}

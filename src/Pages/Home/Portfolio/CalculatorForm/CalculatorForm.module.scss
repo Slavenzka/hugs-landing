@@ -1,0 +1,87 @@
+@import "styles/variables";
+@import "styles/mixins";
+
+.wrapper {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 2rem;
+  padding: 3.7rem 4rem 0 4rem;
+  background-image: linear-gradient(0deg, rgba(247, 238, 255, 1) 0%, rgba(255, 255, 255, 1) 100%);
+  border-radius: 0.8rem;
+  box-shadow: 0 0.1rem 5rem 0 rgba(0, 0, 0, 0.08);
+}
+
+.button {
+  margin-top: auto;
+  height: 5.5rem;
+}
+
+.results {
+  position: relative;
+  grid-column: 1 / -1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3.2rem;
+  padding-bottom: 3.3rem;
+  overflow: hidden;
+
+
+  &::before {
+    content: "";
+    position: absolute;
+    bottom: -1.2rem;
+    left: 4.1rem;
+    width: 18.4rem;
+    height: 11.2rem;
+    background-image: url("../../../../assets/icons/HUG’S.svg");
+    background-size: cover;
+  }
+}
+
+.label {
+  @include fontButtonSimple($colorDarkest);
+
+  margin: 0;
+  opacity: 0.26;
+}
+
+.value {
+  @include h1;
+
+  margin: 0.2rem 0 0 0;
+}
+
+@media (max-width: $adaptiveMax) {
+  .wrapper {
+    position: relative;
+    grid-template-columns: 100%;
+    grid-gap: 1.7rem;
+    padding: 3.2rem 2rem 0 2rem;
+  }
+
+  .button {
+    margin-top: 1.3rem;
+  }
+
+  .results {
+    padding-bottom: 5rem;
+
+
+    &::before {
+      bottom: 0;
+      left: 1.9rem;
+      width: 14.5rem;
+      height: 8.8rem;
+    }
+  }
+
+  .value {
+    margin: 0.5rem 0 0 0;
+    padding-left: 4.7rem;
+    font-size: 3.4rem;
+    font-weight: 600;
+    line-height: 4.3rem;
+  }
+}
