@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/hugs-landing/static/css/main.68622d7e.chunk.css",
-    "main.js": "/hugs-landing/static/js/main.4ffbe45f.chunk.js",
-    "main.js.map": "/hugs-landing/static/js/main.4ffbe45f.chunk.js.map",
+    "main.css": "/hugs-landing/static/css/main.7ecbdf93.chunk.css",
+    "main.js": "/hugs-landing/static/js/main.2cb5f970.chunk.js",
+    "main.js.map": "/hugs-landing/static/js/main.2cb5f970.chunk.js.map",
     "runtime-main.js": "/hugs-landing/static/js/runtime-main.97655a96.js",
     "runtime-main.js.map": "/hugs-landing/static/js/runtime-main.97655a96.js.map",
     "static/css/2.27857b85.chunk.css": "/hugs-landing/static/css/2.27857b85.chunk.css",
     "static/js/2.e457ca5e.chunk.js": "/hugs-landing/static/js/2.e457ca5e.chunk.js",
     "static/js/2.e457ca5e.chunk.js.map": "/hugs-landing/static/js/2.e457ca5e.chunk.js.map",
     "index.html": "/hugs-landing/index.html",
-    "precache-manifest.2c0de7cb992b9119000793f6b4a03ca9.js": "/hugs-landing/precache-manifest.2c0de7cb992b9119000793f6b4a03ca9.js",
+    "precache-manifest.42519327153afd5b199aa1beef6b319f.js": "/hugs-landing/precache-manifest.42519327153afd5b199aa1beef6b319f.js",
     "service-worker.js": "/hugs-landing/service-worker.js",
     "static/css/2.27857b85.chunk.css.map": "/hugs-landing/static/css/2.27857b85.chunk.css.map",
-    "static/css/main.68622d7e.chunk.css.map": "/hugs-landing/static/css/main.68622d7e.chunk.css.map",
+    "static/css/main.7ecbdf93.chunk.css.map": "/hugs-landing/static/css/main.7ecbdf93.chunk.css.map",
     "static/js/2.e457ca5e.chunk.js.LICENSE.txt": "/hugs-landing/static/js/2.e457ca5e.chunk.js.LICENSE.txt",
     "static/media/common.scss": "/hugs-landing/static/media/FuturaPTDemi.29fa49c1.woff2",
     "static/media/CalculatorForm.module.scss": "/hugs-landing/static/media/HUG’S.7cbc67ae.svg",
@@ -23,7 +23,7 @@
     "static/media/card__palm.svg": "/hugs-landing/static/media/card__palm.265f83c7.svg",
     "static/media/card__pension.svg": "/hugs-landing/static/media/card__pension.a0c4afc1.svg",
     "static/media/card__study.svg": "/hugs-landing/static/media/card__study.f2e6ba79.svg",
-    "static/media/chart.png": "/hugs-landing/static/media/chart.af492c31.png",
+    "static/media/chart.svg": "/hugs-landing/static/media/chart.7a6490b7.svg",
     "static/media/Meta.module.scss": "/hugs-landing/static/media/ic_check.adb79efd.svg",
     "static/media/MainBanner.module.scss": "/hugs-landing/static/media/phone@2x.4c4263f2.png",
     "static/media/ContactForm.module.scss": "/hugs-landing/static/media/money_02.00c16db6.png",
@@ -34,7 +34,7 @@
     "static/js/runtime-main.97655a96.js",
     "static/css/2.27857b85.chunk.css",
     "static/js/2.e457ca5e.chunk.js",
-    "static/css/main.68622d7e.chunk.css",
-    "static/js/main.4ffbe45f.chunk.js"
+    "static/css/main.7ecbdf93.chunk.css",
+    "static/js/main.2cb5f970.chunk.js"
   ]
 }
