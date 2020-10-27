@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/hugs-landing/static/css/main.14d1f9c6.chunk.css",
-    "main.js": "/hugs-landing/static/js/main.6ba3073f.chunk.js",
-    "main.js.map": "/hugs-landing/static/js/main.6ba3073f.chunk.js.map",
+    "main.css": "/hugs-landing/static/css/main.68622d7e.chunk.css",
+    "main.js": "/hugs-landing/static/js/main.4ffbe45f.chunk.js",
+    "main.js.map": "/hugs-landing/static/js/main.4ffbe45f.chunk.js.map",
     "runtime-main.js": "/hugs-landing/static/js/runtime-main.97655a96.js",
     "runtime-main.js.map": "/hugs-landing/static/js/runtime-main.97655a96.js.map",
-    "static/css/2.456c216f.chunk.css": "/hugs-landing/static/css/2.456c216f.chunk.css",
-    "static/js/2.a705ba85.chunk.js": "/hugs-landing/static/js/2.a705ba85.chunk.js",
-    "static/js/2.a705ba85.chunk.js.map": "/hugs-landing/static/js/2.a705ba85.chunk.js.map",
+    "static/css/2.27857b85.chunk.css": "/hugs-landing/static/css/2.27857b85.chunk.css",
+    "static/js/2.e457ca5e.chunk.js": "/hugs-landing/static/js/2.e457ca5e.chunk.js",
+    "static/js/2.e457ca5e.chunk.js.map": "/hugs-landing/static/js/2.e457ca5e.chunk.js.map",
     "index.html": "/hugs-landing/index.html",
-    "precache-manifest.6fd6e295ce61bc7cb879b51fb8436bb5.js": "/hugs-landing/precache-manifest.6fd6e295ce61bc7cb879b51fb8436bb5.js",
+    "precache-manifest.2c0de7cb992b9119000793f6b4a03ca9.js": "/hugs-landing/precache-manifest.2c0de7cb992b9119000793f6b4a03ca9.js",
     "service-worker.js": "/hugs-landing/service-worker.js",
-    "static/css/2.456c216f.chunk.css.map": "/hugs-landing/static/css/2.456c216f.chunk.css.map",
-    "static/css/main.14d1f9c6.chunk.css.map": "/hugs-landing/static/css/main.14d1f9c6.chunk.css.map",
-    "static/js/2.a705ba85.chunk.js.LICENSE.txt": "/hugs-landing/static/js/2.a705ba85.chunk.js.LICENSE.txt",
+    "static/css/2.27857b85.chunk.css.map": "/hugs-landing/static/css/2.27857b85.chunk.css.map",
+    "static/css/main.68622d7e.chunk.css.map": "/hugs-landing/static/css/main.68622d7e.chunk.css.map",
+    "static/js/2.e457ca5e.chunk.js.LICENSE.txt": "/hugs-landing/static/js/2.e457ca5e.chunk.js.LICENSE.txt",
     "static/media/common.scss": "/hugs-landing/static/media/FuturaPTDemi.29fa49c1.woff2",
     "static/media/CalculatorForm.module.scss": "/hugs-landing/static/media/HUG’S.7cbc67ae.svg",
     "static/media/bg_eric.png": "/hugs-landing/static/media/bg_eric.0875b0be.png",
@@ -32,9 +32,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.97655a96.js",
-    "static/css/2.456c216f.chunk.css",
-    "static/js/2.a705ba85.chunk.js",
-    "static/css/main.14d1f9c6.chunk.css",
-    "static/js/main.6ba3073f.chunk.js"
+    "static/css/2.27857b85.chunk.css",
+    "static/js/2.e457ca5e.chunk.js",
+    "static/css/main.68622d7e.chunk.css",
+    "static/js/main.4ffbe45f.chunk.js"
   ]
 }
