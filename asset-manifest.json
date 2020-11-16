@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/hugs-landing/static/css/main.7ecbdf93.chunk.css",
-    "main.js": "/hugs-landing/static/js/main.2cb5f970.chunk.js",
-    "main.js.map": "/hugs-landing/static/js/main.2cb5f970.chunk.js.map",
+    "main.css": "/hugs-landing/static/css/main.b5c3faee.chunk.css",
+    "main.js": "/hugs-landing/static/js/main.e6fc4afe.chunk.js",
+    "main.js.map": "/hugs-landing/static/js/main.e6fc4afe.chunk.js.map",
     "runtime-main.js": "/hugs-landing/static/js/runtime-main.97655a96.js",
     "runtime-main.js.map": "/hugs-landing/static/js/runtime-main.97655a96.js.map",
     "static/css/2.27857b85.chunk.css": "/hugs-landing/static/css/2.27857b85.chunk.css",
     "static/js/2.e457ca5e.chunk.js": "/hugs-landing/static/js/2.e457ca5e.chunk.js",
     "static/js/2.e457ca5e.chunk.js.map": "/hugs-landing/static/js/2.e457ca5e.chunk.js.map",
     "index.html": "/hugs-landing/index.html",
-    "precache-manifest.42519327153afd5b199aa1beef6b319f.js": "/hugs-landing/precache-manifest.42519327153afd5b199aa1beef6b319f.js",
+    "precache-manifest.02a87e74874d59a4c1f64699d5f2c4ea.js": "/hugs-landing/precache-manifest.02a87e74874d59a4c1f64699d5f2c4ea.js",
     "service-worker.js": "/hugs-landing/service-worker.js",
     "static/css/2.27857b85.chunk.css.map": "/hugs-landing/static/css/2.27857b85.chunk.css.map",
-    "static/css/main.7ecbdf93.chunk.css.map": "/hugs-landing/static/css/main.7ecbdf93.chunk.css.map",
+    "static/css/main.b5c3faee.chunk.css.map": "/hugs-landing/static/css/main.b5c3faee.chunk.css.map",
     "static/js/2.e457ca5e.chunk.js.LICENSE.txt": "/hugs-landing/static/js/2.e457ca5e.chunk.js.LICENSE.txt",
     "static/media/common.scss": "/hugs-landing/static/media/FuturaPTDemi.29fa49c1.woff2",
     "static/media/CalculatorForm.module.scss": "/hugs-landing/static/media/HUG’S.7cbc67ae.svg",
@@ -27,14 +27,14 @@
     "static/media/Meta.module.scss": "/hugs-landing/static/media/ic_check.adb79efd.svg",
     "static/media/MainBanner.module.scss": "/hugs-landing/static/media/phone@2x.4c4263f2.png",
     "static/media/ContactForm.module.scss": "/hugs-landing/static/media/money_02.00c16db6.png",
-    "static/media/Promotion.module.scss": "/hugs-landing/static/media/phone_02.3721bce8.png",
+    "static/media/Promotion.module.scss": "/hugs-landing/static/media/phone_02@2x.4791c497.png",
     "static/media/tutorial.mp4": "/hugs-landing/static/media/tutorial.24e95abd.mp4"
   },
   "entrypoints": [
     "static/js/runtime-main.97655a96.js",
     "static/css/2.27857b85.chunk.css",
     "static/js/2.e457ca5e.chunk.js",
-    "static/css/main.7ecbdf93.chunk.css",
-    "static/js/main.2cb5f970.chunk.js"
+    "static/css/main.b5c3faee.chunk.css",
+    "static/js/main.e6fc4afe.chunk.js"
   ]
 }
