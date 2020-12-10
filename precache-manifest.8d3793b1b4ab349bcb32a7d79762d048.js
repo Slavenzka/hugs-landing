@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d8029c54f88b2a4f859a9ee20afd1b91",
+    "revision": "48bbb529f0f4c8a4801af3716db25679",
     "url": "/hugs-landing/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/hugs-landing/static/css/2.456c216f.chunk.css"
   },
   {
-    "revision": "efde61e1848c31e24139",
-    "url": "/hugs-landing/static/css/main.def82e87.chunk.css"
+    "revision": "ac9a97ad8de04121663e",
+    "url": "/hugs-landing/static/css/main.e9084f41.chunk.css"
   },
   {
     "revision": "d510bf03e7baec397f8b",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/hugs-landing/static/js/2.b7c29286.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "efde61e1848c31e24139",
-    "url": "/hugs-landing/static/js/main.07be372b.chunk.js"
+    "revision": "ac9a97ad8de04121663e",
+    "url": "/hugs-landing/static/js/main.90192c0a.chunk.js"
   },
   {
     "revision": "b1b27f6e16ece4236635",
