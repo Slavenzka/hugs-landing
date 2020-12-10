@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2b9c46797e615e92908e5f8099b91ae5",
+    "revision": "d8029c54f88b2a4f859a9ee20afd1b91",
     "url": "/hugs-landing/index.html"
   },
   {
-    "revision": "9cdb9bf8a512d1399b9b",
+    "revision": "d510bf03e7baec397f8b",
     "url": "/hugs-landing/static/css/2.456c216f.chunk.css"
   },
   {
-    "revision": "460eb2227c893f68d524",
-    "url": "/hugs-landing/static/css/main.9fbefadf.chunk.css"
+    "revision": "efde61e1848c31e24139",
+    "url": "/hugs-landing/static/css/main.def82e87.chunk.css"
   },
   {
-    "revision": "9cdb9bf8a512d1399b9b",
-    "url": "/hugs-landing/static/js/2.7305cdd8.chunk.js"
+    "revision": "d510bf03e7baec397f8b",
+    "url": "/hugs-landing/static/js/2.b7c29286.chunk.js"
   },
   {
     "revision": "5b099948b207b77f6fa04ff33fa98702",
-    "url": "/hugs-landing/static/js/2.7305cdd8.chunk.js.LICENSE.txt"
+    "url": "/hugs-landing/static/js/2.b7c29286.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "460eb2227c893f68d524",
-    "url": "/hugs-landing/static/js/main.4f2f304c.chunk.js"
+    "revision": "efde61e1848c31e24139",
+    "url": "/hugs-landing/static/js/main.07be372b.chunk.js"
   },
   {
     "revision": "b1b27f6e16ece4236635",
@@ -92,24 +92,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/hugs-landing/static/media/bg_shvets.93e98bac.png"
   },
   {
-    "revision": "7ed974271570d34a133c80baffe40521",
-    "url": "/hugs-landing/static/media/card__house.7ed97427.svg"
-  },
-  {
-    "revision": "265f83c75183ec7ece3e49dbfe53e443",
-    "url": "/hugs-landing/static/media/card__palm.265f83c7.svg"
-  },
-  {
-    "revision": "a0c4afc13e33959eb1263a56ec5149dc",
-    "url": "/hugs-landing/static/media/card__pension.a0c4afc1.svg"
-  },
-  {
-    "revision": "f2e6ba79da00b92b29f8c5816e1f3ed0",
-    "url": "/hugs-landing/static/media/card__study.f2e6ba79.svg"
-  },
-  {
     "revision": "7a6490b7e025dcad92da1e373624536c",
     "url": "/hugs-landing/static/media/chart.7a6490b7.svg"
+  },
+  {
+    "revision": "72d359fbe002432ff61cb470aaa9b9d6",
+    "url": "/hugs-landing/static/media/house.72d359fb.png"
   },
   {
     "revision": "d3df19dff6aad6f90a416f87e58cb310",
@@ -124,16 +112,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/hugs-landing/static/media/money_02.00c16db6.png"
   },
   {
-    "revision": "769f8c480ab4db5a2bc8a6eba928cbae",
-    "url": "/hugs-landing/static/media/phone.769f8c48.png"
+    "revision": "01cfd2317f2b90b58eea6b78499258c9",
+    "url": "/hugs-landing/static/media/palm.01cfd231.png"
   },
   {
-    "revision": "4c4263f2b081c844b36d2469e27e56de",
-    "url": "/hugs-landing/static/media/phone@2x.4c4263f2.png"
+    "revision": "e4dffc1adf9be1bd3c326baf920a8834",
+    "url": "/hugs-landing/static/media/pension.e4dffc1a.png"
   },
   {
-    "revision": "4791c497b00e111ce40fadbfef66778e",
-    "url": "/hugs-landing/static/media/phone_02@2x.4791c497.png"
+    "revision": "c00634ca3cfe24f7f92c9f73f12f50de",
+    "url": "/hugs-landing/static/media/phone.c00634ca.png"
+  },
+  {
+    "revision": "1b223494b38070cdc798434f76fae8dc",
+    "url": "/hugs-landing/static/media/phone_02@2x.1b223494.png"
+  },
+  {
+    "revision": "d65bc44cac3524551172e5953856e57c",
+    "url": "/hugs-landing/static/media/study.d65bc44c.png"
   },
   {
     "revision": "24e95abd65c795492f730d1bfb6fa9cb",
